@@ -53,6 +53,7 @@ NOTICE.md                   provenance and claim boundaries
 
 The GitHub Pages site is the public-facing case-study draft:
 
+- https://ljhljh0703-cmd.github.io/codex-asset-forge/
 - `docs/index.html`
 - `docs/codex-asset-pipeline-portfolio-inventory.md`
 - `docs/codex-asset-pipeline-fde-blog-draft.md`
