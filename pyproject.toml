@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-asset-forge"
+version = "0.1.0"
+description = "Small toolkit for converting generated pixel-art drafts into atlas/manifest artifacts."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Juhyeong Lee" }]
+dependencies = ["Pillow>=10"]
+
+[project.scripts]
+codex-asset-forge = "codex_asset_forge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

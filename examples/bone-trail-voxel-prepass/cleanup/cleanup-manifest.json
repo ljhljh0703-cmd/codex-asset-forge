@@ -1,0 +1,59 @@
+{
+  "assetId": "tile_warp_gate_01",
+  "status": "REVIEW_RUNTIME_PREVIEW_NOT_ACCEPTED",
+  "source": {
+    "prepassManifest": "tools/asset-pipeline/voxel-turnaround-prepass/tile_warp_gate_01/source-manifest.json",
+    "canonicalSheet": "tools/asset-pipeline/voxel-turnaround-prepass/tile_warp_gate_01/preview/tile_warp_gate_01__canonical_sprite_candidates__v001.png"
+  },
+  "cleanupPolicy": {
+    "canonicalViews": [
+      "front",
+      "back",
+      "side_right"
+    ],
+    "mirrors": {
+      "side_left": {
+        "mirrorOf": "side_right",
+        "transform": "horizontal_flip"
+      }
+    },
+    "actorDetailPolicy": "Base actor silhouettes do not bake weapon hand, bag side, bandage position, or other left/right equipment detail."
+  },
+  "outputs": {
+    "cleanupFrames": {
+      "front": "tools/asset-pipeline/voxel-turnaround-prepass/tile_warp_gate_01/cleanup/tile_warp_gate_01__front_clean_32.png",
+      "back": "tools/asset-pipeline/voxel-turnaround-prepass/tile_warp_gate_01/cleanup/tile_warp_gate_01__back_clean_32.png",
+      "side_right": "tools/asset-pipeline/voxel-turnaround-prepass/tile_warp_gate_01/cleanup/tile_warp_gate_01__side_right_clean_32.png",
+      "side_left": "tools/asset-pipeline/voxel-turnaround-prepass/tile_warp_gate_01/cleanup/tile_warp_gate_01__side_left_clean_32.png"
+    },
+    "previewSheet": "tools/asset-pipeline/voxel-turnaround-prepass/tile_warp_gate_01/preview/tile_warp_gate_01__cleanup_preview__v001.png",
+    "reviewCopy": "assets/review/voxel-turnaround/tile_warp_gate_01/tile_warp_gate_01.png",
+    "runtimePreviewCopy": "assets/sprites/tile_warp_gate.png"
+  },
+  "hashes": {
+    "cleanupFrames": {
+      "front": "c5a1ee3f6ee6807ebda44d208dc687086876e8826872d56afc6353e4c48a99cd",
+      "back": "d9335d791b6f4442c11049f624b2606ee1c40bdc3f8638aff46da76012a8876a",
+      "side_right": "2a83f6d0ee5d53dc58fc7cf161bea8863775051176fbc67909dea5be0cee2db7",
+      "side_left": "914ffccc89046328b848f57915201fb9e9ade867ffae62554986bdb84040d920"
+    },
+    "previewSheet": "3dbeec241f7766c36329590ea374512aef471769e6f0d23a51be1d595524527f",
+    "reviewCopy": "c5a1ee3f6ee6807ebda44d208dc687086876e8826872d56afc6353e4c48a99cd",
+    "runtimePreviewCopy": "c5a1ee3f6ee6807ebda44d208dc687086876e8826872d56afc6353e4c48a99cd"
+  },
+  "qa": {
+    "frameSizePx": {
+      "width": 32,
+      "height": 32
+    },
+    "visibleColorCounts": {
+      "front": 10,
+      "back": 7,
+      "side_right": 9,
+      "side_left": 9
+    },
+    "tilePaletteLimit": "PASS_LE_12_VISIBLE_COLORS",
+    "runtimeExport": "DONE_REVIEW_PREVIEW_NOT_ACCEPTED",
+    "finalArt": "NOT_ACCEPTED"
+  }
+}

@@ -1,0 +1,857 @@
+{
+  "status": "PASS",
+  "goalId": "R020_TILE_ITEM_SPRITES",
+  "generatedAt": "2026-06-28T06:15:32.624Z",
+  "url": "http://127.0.0.1:5310/?proof=1",
+  "expectedTileKeys": [
+    "tile/crypt_floor",
+    "tile/crypt_wall",
+    "tile/mire_floor",
+    "tile/mire_wall",
+    "tile/stairs_down",
+    "tile/stairs_up",
+    "tile/stairs_down_locked"
+  ],
+  "expectedItemKeys": [
+    "item/minor_healing_potion",
+    "item/eastbrook_arming_sword",
+    "item/gatekeeper_relic",
+    "item/mire_lock_pearl"
+  ],
+  "renderedKeys": [
+    "item/eastbrook_arming_sword",
+    "item/gatekeeper_relic",
+    "item/minor_healing_potion",
+    "item/mire_lock_pearl",
+    "tile/crypt_floor",
+    "tile/crypt_wall",
+    "tile/mire_floor",
+    "tile/mire_wall",
+    "tile/stairs_down",
+    "tile/stairs_down_locked",
+    "tile/stairs_up"
+  ],
+  "renderedProofs": [
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "item/eastbrook_arming_sword",
+      "state": "idle",
+      "src": "/sprites/item/eastbrook_arming_sword/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "instanceId": "room-1-4-2-eastbrook_arming_sword",
+      "itemId": "eastbrook_arming_sword",
+      "name": "Eastbrook Arming Sword",
+      "kind": "equipment",
+      "gridX": 27,
+      "gridY": 17,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "item/gatekeeper_relic",
+      "state": "idle",
+      "src": "/sprites/item/gatekeeper_relic/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "instanceId": "drop-1-boss-5-gatekeeper_relic",
+      "itemId": "gatekeeper_relic",
+      "name": "Gatekeeper Relic",
+      "kind": "equipment",
+      "gridX": 13,
+      "gridY": 12,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "item/minor_healing_potion",
+      "state": "idle",
+      "src": "/sprites/item/minor_healing_potion/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "instanceId": "room-1-2-1-minor_healing_potion",
+      "itemId": "minor_healing_potion",
+      "name": "Minor Healing Potion",
+      "kind": "potion",
+      "gridX": 12,
+      "gridY": 4,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "item/mire_lock_pearl",
+      "state": "idle",
+      "src": "/sprites/item/mire_lock_pearl/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "instanceId": "drop-2-boss-10-mire_lock_pearl",
+      "itemId": "mire_lock_pearl",
+      "name": "Mire Lock Pearl",
+      "kind": "equipment",
+      "gridX": 21,
+      "gridY": 3,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "tile/crypt_floor",
+      "state": "idle",
+      "src": "/sprites/tile/crypt_floor/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "tile": "floor",
+      "zoneId": "crypt",
+      "gridX": 17,
+      "gridY": 18,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "tile/crypt_wall",
+      "state": "idle",
+      "src": "/sprites/tile/crypt_wall/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "tile": "wall",
+      "zoneId": "crypt",
+      "gridX": 13,
+      "gridY": 21,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "tile/mire_floor",
+      "state": "idle",
+      "src": "/sprites/tile/mire_floor/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "tile": "floor",
+      "zoneId": "mire",
+      "gridX": 23,
+      "gridY": 9,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "tile/mire_wall",
+      "state": "idle",
+      "src": "/sprites/tile/mire_wall/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "tile": "wall",
+      "zoneId": "mire",
+      "gridX": 25,
+      "gridY": 8,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "tile/stairs_down",
+      "state": "idle",
+      "src": "/sprites/tile/stairs_down/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "tile": "stairsDown",
+      "zoneId": "crypt",
+      "gridX": 18,
+      "gridY": 18,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "tile/stairs_down_locked",
+      "state": "idle",
+      "src": "/sprites/tile/stairs_down_locked/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "tile": "stairsDownLocked",
+      "zoneId": "crypt",
+      "gridX": 22,
+      "gridY": 6,
+      "fallbackReason": null
+    },
+    {
+      "manifestLoaded": true,
+      "manifestError": null,
+      "assetKey": "tile/stairs_up",
+      "state": "idle",
+      "src": "/sprites/tile/stairs_up/idle.png",
+      "loaded": true,
+      "spriteRendered": true,
+      "currentFrame": 0,
+      "frameCount": 1,
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "facing": "idle",
+      "tile": "stairsUp",
+      "zoneId": "mire",
+      "gridX": 23,
+      "gridY": 5,
+      "fallbackReason": null
+    }
+  ],
+  "glyphFallbacksAllowed": [],
+  "failures": [],
+  "consoleErrors": [],
+  "observations": [
+    {
+      "route": "floor 1 start shows crypt floor/wall",
+      "screen": "game",
+      "floorDepth": 1,
+      "zone": "crypt",
+      "player": {
+        "x": 18,
+        "y": 11,
+        "hp": 90,
+        "resource": 0,
+        "classId": "warrior"
+      },
+      "activeEnemies": 7,
+      "groundItems": [
+        {
+          "instanceId": "room-1-2-1-minor_healing_potion",
+          "itemId": "minor_healing_potion",
+          "name": "Minor Healing Potion",
+          "kind": "potion",
+          "quality": "common",
+          "x": 12,
+          "y": 4
+        },
+        {
+          "instanceId": "room-1-4-2-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 27,
+          "y": 17
+        }
+      ],
+      "renderedKeys": [
+        "tile/crypt_floor",
+        "tile/crypt_wall"
+      ],
+      "combatTail": [
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 12,3"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 14,2"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 8,18"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,17"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,10"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 18,17"
+        }
+      ]
+    },
+    {
+      "route": "floor 1 down stairs visible",
+      "screen": "game",
+      "floorDepth": 1,
+      "zone": "crypt",
+      "player": {
+        "x": 18,
+        "y": 19,
+        "hp": 90,
+        "resource": 0,
+        "classId": "warrior"
+      },
+      "activeEnemies": 7,
+      "groundItems": [
+        {
+          "instanceId": "room-1-2-1-minor_healing_potion",
+          "itemId": "minor_healing_potion",
+          "name": "Minor Healing Potion",
+          "kind": "potion",
+          "quality": "common",
+          "x": 12,
+          "y": 4
+        },
+        {
+          "instanceId": "room-1-4-2-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 27,
+          "y": 17
+        }
+      ],
+      "renderedKeys": [
+        "tile/crypt_floor",
+        "tile/crypt_wall",
+        "tile/stairs_down"
+      ],
+      "combatTail": [
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 12,3"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 14,2"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 8,18"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,17"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,10"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 18,17"
+        }
+      ]
+    },
+    {
+      "route": "floor 2 up stairs visible",
+      "screen": "game",
+      "floorDepth": 2,
+      "zone": "crypt",
+      "player": {
+        "x": 20,
+        "y": 9,
+        "hp": 90,
+        "resource": 0,
+        "classId": "warrior"
+      },
+      "activeEnemies": 3,
+      "groundItems": [
+        {
+          "instanceId": "room-2-2-1-minor_healing_potion",
+          "itemId": "minor_healing_potion",
+          "name": "Minor Healing Potion",
+          "kind": "potion",
+          "quality": "common",
+          "x": 8,
+          "y": 9
+        },
+        {
+          "instanceId": "room-2-3-2-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 22,
+          "y": 17
+        }
+      ],
+      "renderedKeys": [
+        "tile/crypt_floor",
+        "tile/crypt_wall",
+        "tile/stairs_up"
+      ],
+      "combatTail": [
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 21,8"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 22,16"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 12,17"
+        }
+      ]
+    },
+    {
+      "route": "floor 5 locked boss stairs visible",
+      "screen": "game",
+      "floorDepth": 5,
+      "zone": "crypt",
+      "player": {
+        "x": 22,
+        "y": 7,
+        "hp": 90,
+        "resource": 0,
+        "classId": "warrior"
+      },
+      "activeEnemies": 1,
+      "groundItems": [
+        {
+          "instanceId": "room-5-2-1-minor_healing_potion",
+          "itemId": "minor_healing_potion",
+          "name": "Minor Healing Potion",
+          "kind": "potion",
+          "quality": "common",
+          "x": 8,
+          "y": 8
+        },
+        {
+          "instanceId": "room-5-3-2-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 24,
+          "y": 16
+        }
+      ],
+      "renderedKeys": [
+        "tile/crypt_floor",
+        "tile/crypt_wall",
+        "tile/stairs_down_locked",
+        "tile/stairs_up"
+      ],
+      "combatTail": [
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Gatekeeper spawned at 14,16"
+        }
+      ]
+    },
+    {
+      "route": "floor 6 start shows mire floor/wall",
+      "screen": "game",
+      "floorDepth": 6,
+      "zone": "mire",
+      "player": {
+        "x": 11,
+        "y": 14,
+        "hp": 90,
+        "resource": 0,
+        "classId": "warrior"
+      },
+      "activeEnemies": 1,
+      "groundItems": [
+        {
+          "instanceId": "room-6-2-1-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 26,
+          "y": 11
+        }
+      ],
+      "renderedKeys": [
+        "tile/mire_floor",
+        "tile/mire_wall",
+        "tile/stairs_up"
+      ],
+      "combatTail": [
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Tidebound Acolyte spawned at 12,14"
+        }
+      ]
+    },
+    {
+      "route": "reward room potion visible",
+      "screen": "game",
+      "floorDepth": 1,
+      "zone": "crypt",
+      "player": {
+        "x": 12,
+        "y": 5,
+        "hp": 90,
+        "resource": 0,
+        "classId": "warrior"
+      },
+      "activeEnemies": 7,
+      "groundItems": [
+        {
+          "instanceId": "room-1-2-1-minor_healing_potion",
+          "itemId": "minor_healing_potion",
+          "name": "Minor Healing Potion",
+          "kind": "potion",
+          "quality": "common",
+          "x": 12,
+          "y": 4
+        },
+        {
+          "instanceId": "room-1-4-2-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 27,
+          "y": 17
+        }
+      ],
+      "renderedKeys": [
+        "item/minor_healing_potion",
+        "tile/crypt_floor",
+        "tile/crypt_wall"
+      ],
+      "combatTail": [
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 12,3"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 14,2"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 8,18"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,17"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,10"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 18,17"
+        }
+      ]
+    },
+    {
+      "route": "choice room sword visible",
+      "screen": "game",
+      "floorDepth": 1,
+      "zone": "crypt",
+      "player": {
+        "x": 27,
+        "y": 18,
+        "hp": 90,
+        "resource": 0,
+        "classId": "warrior"
+      },
+      "activeEnemies": 7,
+      "groundItems": [
+        {
+          "instanceId": "room-1-2-1-minor_healing_potion",
+          "itemId": "minor_healing_potion",
+          "name": "Minor Healing Potion",
+          "kind": "potion",
+          "quality": "common",
+          "x": 12,
+          "y": 4
+        },
+        {
+          "instanceId": "room-1-4-2-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 27,
+          "y": 17
+        }
+      ],
+      "renderedKeys": [
+        "item/eastbrook_arming_sword",
+        "tile/crypt_floor",
+        "tile/crypt_wall"
+      ],
+      "combatTail": [
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 12,3"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 14,2"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Crypt Shambler spawned at 8,18"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,17"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 26,10"
+        },
+        {
+          "turn": 0,
+          "kind": "spawn",
+          "text": "Bonechill Widow spawned at 18,17"
+        }
+      ]
+    },
+    {
+      "route": "crypt boss rare drop visible",
+      "screen": "game",
+      "floorDepth": 5,
+      "zone": "crypt",
+      "player": {
+        "x": 13,
+        "y": 16,
+        "hp": 54,
+        "resource": 120,
+        "classId": "mage"
+      },
+      "activeEnemies": 0,
+      "groundItems": [
+        {
+          "instanceId": "room-5-2-1-minor_healing_potion",
+          "itemId": "minor_healing_potion",
+          "name": "Minor Healing Potion",
+          "kind": "potion",
+          "quality": "common",
+          "x": 8,
+          "y": 8
+        },
+        {
+          "instanceId": "room-5-3-2-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 24,
+          "y": 16
+        },
+        {
+          "instanceId": "drop-1-boss-5-gatekeeper_relic",
+          "itemId": "gatekeeper_relic",
+          "name": "Gatekeeper Relic",
+          "kind": "equipment",
+          "quality": "rare",
+          "x": 13,
+          "y": 12
+        }
+      ],
+      "renderedKeys": [
+        "item/gatekeeper_relic",
+        "tile/crypt_floor",
+        "tile/crypt_wall",
+        "tile/stairs_up"
+      ],
+      "combatTail": [
+        {
+          "turn": 1,
+          "kind": "ability",
+          "text": "Mage used Fireball on Crypt Gatekeeper for 20"
+        },
+        {
+          "turn": 1,
+          "kind": "player_attack",
+          "text": "Fireball hit Crypt Gatekeeper for 20"
+        },
+        {
+          "turn": 1,
+          "kind": "player_attack",
+          "text": "Crypt Gatekeeper defeated"
+        },
+        {
+          "turn": 1,
+          "kind": "boss",
+          "text": "Crypt Gatekeeper boss cleared"
+        },
+        {
+          "turn": 1,
+          "kind": "gate",
+          "text": "Boss gate unlocked on floor 5"
+        },
+        {
+          "turn": 1,
+          "kind": "drop",
+          "text": "Crypt Gatekeeper dropped Gatekeeper Relic"
+        }
+      ]
+    },
+    {
+      "route": "mire boss rare drop visible",
+      "screen": "game",
+      "floorDepth": 10,
+      "zone": "mire",
+      "player": {
+        "x": 23,
+        "y": 5,
+        "hp": 32,
+        "resource": 90,
+        "classId": "mage"
+      },
+      "activeEnemies": 0,
+      "groundItems": [
+        {
+          "instanceId": "room-10-2-1-eastbrook_arming_sword",
+          "itemId": "eastbrook_arming_sword",
+          "name": "Eastbrook Arming Sword",
+          "kind": "equipment",
+          "quality": "common",
+          "x": 10,
+          "y": 9
+        },
+        {
+          "instanceId": "drop-2-boss-10-mire_lock_pearl",
+          "itemId": "mire_lock_pearl",
+          "name": "Mire Lock Pearl",
+          "kind": "equipment",
+          "quality": "rare",
+          "x": 21,
+          "y": 3
+        }
+      ],
+      "renderedKeys": [
+        "item/mire_lock_pearl",
+        "tile/mire_floor",
+        "tile/mire_wall",
+        "tile/stairs_up"
+      ],
+      "combatTail": [
+        {
+          "turn": 2,
+          "kind": "ability",
+          "text": "Mage used Fireball on Mire Lockwarden for 20"
+        },
+        {
+          "turn": 2,
+          "kind": "player_attack",
+          "text": "Fireball hit Mire Lockwarden for 20"
+        },
+        {
+          "turn": 2,
+          "kind": "player_attack",
+          "text": "Mire Lockwarden defeated"
+        },
+        {
+          "turn": 2,
+          "kind": "boss",
+          "text": "Mire Lockwarden boss cleared"
+        },
+        {
+          "turn": 2,
+          "kind": "gate",
+          "text": "Boss gate unlocked on floor 10"
+        },
+        {
+          "turn": 2,
+          "kind": "drop",
+          "text": "Mire Lockwarden dropped Mire Lock Pearl"
+        }
+      ]
+    }
+  ],
+  "screenshot": "/Users/godju/Downloads/AI Game/ClaudeCraft/derived-source/world-of-claudecraft-renewed/artifacts/phase-d/r020-tile-item-sprite-proof.png"
+}
